@@ -52,12 +52,6 @@ By leveraging Excel features like **PivotTables, PivotCharts, Slicers, and calcu
 
 ---
 
-## 🖼️ Dashboard Preview  
-
-![dashboard](https://github.com/user-attachments/assets/af5ce85b-f6e8-40ac-ba15-35cde5865f0a)  
-
----
-
 ## 🔄 Process Workflow  
 
 1. **Data Import**  
