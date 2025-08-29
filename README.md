@@ -1,111 +1,112 @@
-# Data-Analysis-Dashboard (On-annual-store-report Using MS excel)
-## Project Objectives
--Import and understand raw sales data.
+# 📊 Data Analysis Dashboard – Annual Store Report (MS Excel)
 
--Clean and prepare the dataset for analysis.
+![Excel](https://img.shields.io/badge/Tool-MS%20Excel-green)
+![Data Analysis](https://img.shields.io/badge/Focus-Data%20Visualization-blue)
+![Project](https://img.shields.io/badge/Type-Dashboard-orange)
 
--Transform data using Excel formulas and calculated fields.
+---
 
--Analyze trends and summaries using PivotTables and charts.
+## 📌 Project Overview
 
--Build a dynamic, interactive dashboard for visual storytelling.
+This project focuses on analyzing **store sales data** and building a **dynamic Excel dashboard** to generate actionable insights.  
+The dashboard highlights customer behavior, order trends, sales performance, and channel contribution.  
+By leveraging Excel features like **PivotTables, PivotCharts, Slicers, and calculated fields**, this project demonstrates **end-to-end data analysis and visualization**.
 
--Strengthen practical Excel skills in a real-world scenario.
+---
 
--Present insights in a professional and user-friendly format.
+## 🎯 Project Objectives
 
-## Dataset Used 
- <a href="https://github.com/meghauppadka-ai/Data-Analysis-Dashboard-On_Annual-Store-Report/blob/main/Store%20Data%20Analysis%20(1).xlsx">Dataset</a>
- 
-## Dashboard Interaction 
-<a href="https://github.com/meghauppadka-ai/Data-Analysis-Dashboard-On_Annual-Store-Report/blob/main/dashboard.jpeg">Dashboard</a>
+- Import and understand raw sales data.  
+- Clean and prepare the dataset for accurate analysis.  
+- Transform data using **Excel formulas and calculated fields**.  
+- Analyze sales trends and order summaries using PivotTables & Charts.  
+- Build a **dynamic, interactive dashboard** for storytelling.  
+- Strengthen **practical Excel skills** in a real-world scenario.  
+- Present insights in a professional and user-friendly format.  
 
-## KPI Questions for the Excel Dashboard Project
+---
 
-Compare the sales and orders using single chart.
+## 📂 Dataset Used  
 
-Which month got the highest sales and orders?
+📎 [Store Data Excel File](https://github.com/meghauppadka-ai/Data-Analysis-Dashboard-On_Annual-Store-Report/blob/main/Store%20Data%20Analysis%20(1).xlsx)  
 
-Who purchased more - Men or Women?
+---
 
-What are different order status in 2022?
+## 📊 Dashboard Interaction  
 
-List top 10 states contributingto the sales?
+📎 [View Dashboard](https://github.com/meghauppadka-ai/Data-Analysis-Dashboard-On_Annual-Store-Report/blob/main/dashboard.jpeg)  
 
-Relation between age and gender based on number of orders.
+---
 
-Which Channel is contributing maximum to the sales?
+## ❓ KPI Questions Addressed  
 
-Highest selling category?
+- Compare the **sales and orders** using a single chart.  
+- Which **month** had the highest sales and orders?  
+- Who purchased more – **Men or Women**?  
+- What were the **different order statuses** in 2022?  
+- Top **10 states** contributing to overall sales.  
+- Relation between **age and gender** in terms of orders.  
+- Which **sales channel** contributed the most?  
+- Highest selling **product category**.  
+- Percentage of total **orders delivered**.  
 
-Percentage of Total Orders delivered.
+---
 
-## Dashboard View
-![dashboard](https://github.com/user-attachments/assets/af5ce85b-f6e8-40ac-ba15-35cde5865f0a)
+## 🖼️ Dashboard Preview  
 
-## Process
- 1. Data Import
+![dashboard](https://github.com/user-attachments/assets/af5ce85b-f6e8-40ac-ba15-35cde5865f0a)  
 
-    Import the sales dataset from a .csv or .xlsx file.
+---
 
-    Verify headers and data types.
+## 🔄 Process Workflow  
 
-2. Data Cleaning
+1. **Data Import**  
+   - Imported sales dataset (.xlsx) into Excel.  
+   - Verified headers and data types.  
 
-   Remove duplicates.
+2. **Data Cleaning**  
+   - Removed duplicates.  
+   - Handled missing/inconsistent data.  
 
-   Handle missing or inconsistent data.
+3. **Data Transformation**  
+   - Added calculated fields (e.g., *Total Revenue = Units Sold × Unit Price*).  
+   - Created helper columns for Month & Year:  
+     ```excel
+     =TEXT([@Date], "MMMM")
+     =YEAR([@Date])
+     ```  
 
-3. Data Transformation
+4. **Data Analysis**  
+   - Built PivotTables for:  
+     - Total sales by region  
+     - Monthly sales trends  
+     - Product-wise performance  
+   - Generated PivotCharts (Column, Line, Pie).  
 
-   Add calculated fields (e.g., Total Revenue = Units Sold * Unit Price)
+5. **Dashboard Creation**  
+   - Designed an interactive **Dashboard sheet**.  
+   - Added KPIs: revenue, orders, monthly trends.  
+   - Inserted slicers for filtering (Region, Year, Product).  
+   - Applied professional formatting.  
 
-   Create helper columns for Month and Year using:
+6. **Review & Final Touches**  
+   - Tested interactivity of dashboard.  
+   - Validated accuracy of KPIs and charts.  
 
-   =TEXT([@Date], "MMMM")
+---
 
-   =YEAR([@Date])
+## 💡 Project Insights  
 
-4. Data Analysis
+1. **Women** purchased more compared to men (**65% share**).  
+2. **Maharashtra, Karnataka, and UP** were the top 3 states (**35% share**).  
+3. **Adult age group (30–49 yrs)** contributed the most (**~50%**).  
+4. **Amazon, Flipkart, and Myntra** were the top sales channels (**~80%**).  
 
-   Create PivotTables for:
+---
 
-   Total sales by region
+## 🏆 Final Conclusion  
 
-   Monthly sales trends
+To improve store sales:  
+👉 **Target women customers (30–49 yrs)** in **Maharashtra, Karnataka, and UP** by offering **ads, offers, and coupons** on top e-commerce platforms (**Amazon, Flipkart, Ajio, Myntra**).  
 
-   Product-wise performance
-
-   Generate PivotCharts (column, line, pie) from PivotTables
-
-5. Dashboard Creation
-
-   Design a new sheet named “Dashboard”
-
-   Add key performance indicators (KPIs) like total revenue, monthly sales, etc.
-
-   Insert dynamic charts linked to PivotTables
-
-   Use slicers for filtering data by region, year, or product
-
-   Apply formatting for a clean, professional layout
-
-6. Review & Final Touches
-
-   Test interactivity of the dashboard
-
-   Ensure accuracy of calculations and visualizations 
-
-## Project Insight  
-
-1. Women are more likely to buy comapred to men (65%) 
-
-2. Maharashtra,Karnatka,and UP are the top3 states (35%)
-
-3. Adult aggroup(30-49yrs) is max contributing (-50%)
-
-4. Amazon,flipkart and Myntra channels are max contributing (-80%)
-
-# Final conclusion to improve Store sales
-   
-## Target Women customers of age group 30-49yr living In Maharashtra karanataka and UP by showing ads/offers/coupons availabe on Amazon flipkarft Ajio and Myntra.
+---
