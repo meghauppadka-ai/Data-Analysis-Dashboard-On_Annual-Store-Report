@@ -18,7 +18,7 @@
  <a href="https://github.com/darshant15/Data-Analysis-Dashboard-On-annual-store-report-/blob/main/Store%20Data%20Analysis%20(1).xlsx">Dataset</a>
  
 ## Dashboard Interaction 
-<a href="https://github.com/darshant15/Data-Analysis-Dashboard-On-annual-store-report-/blob/main/dashboard.jpeg">Dashboard</a>
+<a href="https://github.com/meghauppadka-ai/Data-Analysis-Dashboard-On_Annual-Store-Report/blob/main/dashboard.jpeg">Dashboard</a>
 
 ## KPI Questions for the Excel Dashboard Project
 
